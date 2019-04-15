@@ -1,3 +1,3 @@
-import btn from './src/plugin/btn/btn';
+import MyBtn from './src/plugin/btn/btn';
 
-export default btn
+export default MyBtn

@@ -6,7 +6,7 @@
 
 <script>
   export default {
-    name: "btn",
+    name: "MyBtn",
     props: ['val'],
     data() {
       return {}
