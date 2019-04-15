@@ -11,7 +11,7 @@ module.exports = {
     path: path.resolve(__dirname, './dist'),
     publicPath: '/dist/',
     filename: 'hm-vue-test.js',
-    library: 'hm-vue-test',
+    library: 'hm-vue-test1',
     libraryTarget: 'umd',
     umdNamedDefine: true
   },
