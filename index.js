@@ -1,3 +1,8 @@
 import MyBtn from './src/plugin/btn/btn';
 
-export default MyBtn
+export function install(Vue) {
+  Vue.component(MyBtn.name, MyBtn)
+}
+export {
+  MyBtn
+}
