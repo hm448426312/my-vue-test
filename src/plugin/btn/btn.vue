@@ -1,10 +1,12 @@
 <template>
-    <div class="red">
-        color {{val || '无'}}
-    </div>
     <div>
-        <el-button>确定</el-button>
-        <el-button type="primary">主要按钮</el-button>
+        <div class="red">
+            color {{val || '无'}}
+        </div>
+        <div>
+            <el-button>确定</el-button>
+            <el-button type="primary">主要按钮</el-button>
+        </div>
     </div>
 </template>
 
