@@ -1,21 +1,17 @@
 <template>
-    <div class="red">
-        color {{val || '无'}}
-    </div>
+  <my-btn :val="'app val'"></my-btn>
 </template>
 
 <script>
-  export default {
-    name: "app",
-    props: ['val'],
-    data() {
-      return {}
+import MyBtn from './plugin/btn/btn'
+export default {
+  name: 'app',
+  data () {
+    return {
     }
   }
+}
 </script>
 
-<style scoped>
-    .red{
-        color: red;
-    }
+<style>
 </style>
